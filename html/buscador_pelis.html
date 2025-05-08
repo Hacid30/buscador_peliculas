@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de peliculas</title>
+    <link rel="stylesheet" href="../css/buscador_pelis.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎬 Bucador de peliculas</h1>
+        <div class="busqueda">
+            <input type="text" id="busqueda" placeholder="Buscar peliculas..." required>
+            <button id="btn-buscar" >Buscar</button>
+        </div>
+
+        <div id="model-content" class="model-content" ></div>
+
+        <div class="filtros">
+            <button id="btn-favorito" >⭐ Favoritos</button>
+        </div>
+
+        <div class="paginacion">
+            <button id="btn-ant" >Anterior</button>
+            <span id="page-info">Página 1</span>
+            <button id="btn-sig" >Siguiente</button>
+        </div>
+    </div>
+    <script src="../js/buscador_pelis.js"></script>
+</body>
+</html>
